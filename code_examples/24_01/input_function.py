@@ -1,0 +1,5 @@
+# name = input("What is your name?\n")
+age = bool(input("What is your age?\n"))
+age_1 = bool(input("What is age of your friend?\n"))
+print(type(age))
+print(age)
