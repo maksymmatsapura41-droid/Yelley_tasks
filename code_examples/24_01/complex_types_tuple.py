@@ -21,6 +21,8 @@ print(f"Number of 10s: {ten_count}") # Output: 3
 index_of_eight = grades.index(8)
 print(f"The grade 8 is at index: {index_of_eight}") # Output: 2
 
+
+
 # Practical usage: Tuple Unpacking
 point = (4, 5, 4, 2, 5, 6)
 x, y, *other_values= point  # Assigns 4 to x and 5 to y

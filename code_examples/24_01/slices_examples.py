@@ -1,7 +1,18 @@
 numbers = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
 
+first_3_element = numbers[:]
+first_3_element.append(3)
+# print(first_3_element)
+# print(numbers)
+
+#sequence[start : stop : step]
+#sequence[2]
+
+
+
 # Get items from index 2 to 5 (not including 5)
 middle_part = numbers[2:5]
+print(first_3_element)
 # Result: [20, 30, 40]
 
 # Get the first 3 items (starts from index 0 by default)
@@ -34,6 +45,8 @@ reversed_text = text[::-1]
 # Result: "gnimmargorP nohtyP"
 
 
+
+
 '''
 obj[start:stop]	Items from start through stop-1
 obj[start:]	Items from start through the rest of the array
@@ -42,3 +55,10 @@ obj[:]	A copy of the whole array
 obj[::step]	Every step-th item
 obj[::-1]	All items, but in reverse order
 '''
+
+palindrome = input("Enter value to check is it a palindrome: ")
+
+if palindrome == palindrome[::-1]:
+    print("Yes it's palindrome")
+else:
+    print("No, it's not a palindrome")
