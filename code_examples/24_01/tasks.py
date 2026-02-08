@@ -42,9 +42,42 @@
 # Print only the keys of the dictionary, and then print only the values.
 
 
-
-
 # Task 4: Inventory Manager Create a dictionary called inventory where keys are item names and values are their quantities: inventory = {"apples": 10, "bananas": 5, "oranges": 8}.
 # Write a script that checks if "grapes" is in the dictionary. If not, add it with a quantity of 12.
 # Increase the number of "apples" by 5.
 # Calculate and print the total number of items in the inventory (sum of all values).
+
+
+# -----------------------------------------------------------------------------------------
+# Tasks for 09.02
+
+# Task 1: The Guest List (List & If)
+# Scenario: You are managing a party guest list.
+# Data: Create a list called guests = ["Alice", "Bob", "Charlie", "Diana"].
+# Logic: * Check if "Eve" is in the list.
+# If she is not, add her to the end of the list.
+# If the list now has more than 4 people, print "The party is full!"; otherwise, print "Keep inviting friends!
+#
+#
+# Task 2: The Smart Home Alarm (Logical and / not)
+# Scenario: You are programming a security system. The alarm should only trigger if the system is armed AND a sensor is tripped, but NOT if it's maintenance mode.
+# Data: * is_armed = True
+# sensor_tripped = True
+# is_maintenance = False
+# Logic:
+# Write an if statement using and and not.
+# If the alarm condition is met, print "ALARM! Calling police..."; otherwise, print "System secure."
+#
+#
+#
+# Task 3: The Data Validator (Truthiness & elif)
+# Scenario: You are validating a user's profile. A profile is "Incomplete" if the username is empty, "Unverified" if the email is missing, and "Active" only if both exist.
+# Data:
+# username = "Dev_User123"
+# email = "" (empty string)
+# Logic:
+# Use the "truthiness" of strings (an empty string "" is False).
+# If NOT username, print "Error: Username is required."
+# elif NOT email, print "Warning: Email is missing."
+# else, print "Profile is valid."
+
