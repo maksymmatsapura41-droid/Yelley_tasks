@@ -39,3 +39,7 @@ student.setdefault("age", 25)
 student["age"] = 123
 
 print(student)
+
+
+## -----
+# Add more straight example for setdefault  method
