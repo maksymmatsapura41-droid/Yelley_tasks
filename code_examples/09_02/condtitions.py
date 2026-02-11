@@ -1,10 +1,30 @@
 result = 5 > 7
 print(result)
 print(type(result))
-
+age = 18
+if age >= 21:
+    print("You can enter and order anything.")
+name = "John"
 
 # simple logical check
-age = 18
+if age == 21:
+    print("You can enter and order anything.")
+
+if age != 21:
+    print("You can enter and order anything.")
+
+if age < 21:
+    print("You can enter and order anything.")
+
+if age <= 21:
+    print("You can enter and order anything.")
+
+if age <= 21 and name == "John":
+    print("You can enter and order anything.")
+
+if age <= 21 or name == "John":
+    print("You can enter and order anything.")
+
 if age >= 21:
     print("You can enter and order anything.")
 elif age >= 18:
@@ -13,7 +33,7 @@ else:
     print("You are too young to enter.")
 
 # using in operator
-banned_users = {"admin_bot", "spammer_99", "troll_face"}
+banned_users = {"admin_bot": 1, "spammer_99": 2, "troll_face": 3}
 current_user = "spammer_99"
 
 if current_user in banned_users:
@@ -21,9 +41,18 @@ if current_user in banned_users:
 else:
     print("Welcome to the forum.")
 
-# Checking if a Collection is Empty
+str_1 = 'Hello World'
+if "i" in str_1:
+    print("Hello World!")
 
-shopping_cart = [] # An empty list
+
+shopping_cart = [] # An empty list (it is naturally False)
+
+if True:
+    print("a")
+
+if shopping_cart:
+    print("This list is not empty.")
 
 if not shopping_cart:
     print("Your cart is empty. Keep shopping!")
@@ -42,7 +71,6 @@ if (has_ticket or is_vip) and age >= 18:
     print("Entry permitted.")
 else:
     print("Entry refused.")
-
 
 # Nested Conditions
 
