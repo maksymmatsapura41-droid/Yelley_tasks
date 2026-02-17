@@ -50,7 +50,7 @@
 
 # -----------------------------------------------------------------------------------------
 # Tasks for 09.02
-
+#
 # Task 1: The Guest List (List & If)
 # Scenario: You are managing a party guest list.
 # Data: Create a list called guests = ["Alice", "Bob", "Charlie", "Diana"].
@@ -80,4 +80,4 @@
 # If NOT username, print "Error: Username is required."
 # elif NOT email, print "Warning: Email is missing."
 # else, print "Profile is valid."
-
+#

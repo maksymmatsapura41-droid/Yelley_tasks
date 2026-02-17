@@ -43,3 +43,22 @@ print(student)
 
 ## -----
 # Add more straight example for setdefault  method
+
+player_stats = {"nickname": "DragonSlayer", "level": 10}
+
+player_stats.setdefault("level", 1)
+player_stats.setdefault("health", 100)
+player_stats.setdefault("mana", 50)
+
+print(player_stats)
+
+# ------- update
+player_stats = {"nickname": "DragonSlayer", "level": 10}
+
+player_stats.update({
+    "level": 1,
+    "health": 100,
+    "mana": 50
+})
+
+print(player_stats)
