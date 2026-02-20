@@ -12,11 +12,9 @@ my_skills = {"Python", "Git", "SQL"}
 my_skills.add("Django")
 
 
-my_skills["Python"]
-
 # # # 2. .discard() — Safe removal (does not raise an error if item is missing)
-# my_skills.discard("Java")
-# random_value = my_skills.pop()
+my_skills.discard("Java")
+random_value = my_skills.pop()
 #
 # color = {"Red", "Blue", "Green"}
 #
